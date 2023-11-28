@@ -1,8 +1,10 @@
 import random
+from art import logo
 from os import system
 
 def play_game():
     system("cls")
+    print(logo)
     print("I'm thinking of a number between 1 and 100.")
     difficulty = input("Choose a difficulty. Type 'easy' or 'hard': ")
 
